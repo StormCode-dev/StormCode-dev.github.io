@@ -1,4 +1,3 @@
-/* General reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +10,12 @@
     color: #f0f0f0;
   }
   
-  /* Topbar styling with solid background */
   .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #1a1a1a; /* Solid blue background */
+    background-color: #1a1a1a;
     color: white;
     position: sticky;
     top: 0;
@@ -25,13 +23,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Logo */
   .logo {
     font-size: 1.6em;
     font-weight: bold;
   }
   
-  /* Navigation Links */
+
   .nav-links {
     display: flex;
     gap: 20px;
@@ -48,10 +45,10 @@
     color: #6d49d1;
   }
   
-  /* Gradient section with fade effect */
+
   .gradient-section {
     position: relative;
-    height: 250px; /* Adjust this to fit the desired size */
+    height: 250px; 
     background: linear-gradient(95deg, #51138b, #112b83, #461da7, #0c4188);
     background-size: 800% 800%;
     animation: auroraEffect 20s linear infinite;
@@ -66,10 +63,9 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgb(7, 7, 7));
-    pointer-events: none; /* Make sure the fade doesn't interfere with interactions */
+    pointer-events: none;
 }
 
-/* filepath: c:\Users\micro\Documents\GitHub\StormCode-dev.github.io\css\styles.css */
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -94,7 +90,7 @@
     margin-bottom: 10px;
 }
   
-  /* Gradient animation */
+
   @keyframes auroraEffect {
     0% {
       background-position: 0% 50%;
@@ -107,10 +103,9 @@
     }
   }
   
-  /* Content inside the gradient section */
   .gradient-content {
     position: relative;
-    z-index: 2; /* Make sure content is on top of the gradient */
+    z-index: 2; 
     padding: 40px 30px;
     text-align: center;
     color: white;
@@ -127,7 +122,6 @@
     margin-bottom: 30px;
   }
   
-  /* Main content section */
   main {
     padding: 60px 30px;
   }
@@ -141,7 +135,7 @@
     margin-bottom: 10px;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .topbar {
       flex-direction: column;
@@ -158,7 +152,6 @@
     }
   }
 
-/* Tools section */
 #tools {
     padding: 60px 30px;
     text-align: center;
@@ -201,8 +194,8 @@
 
   .subnav {
     position: fixed;
-    top: 75px;            /* height of your topbar */
-    left: 50%;            /* center it horizontally */
+    top: 75px;
+    left: 50%;
     transform: translateX(-50%);
     width: 75%;
     background-color: #1a1a1aab;
@@ -234,13 +227,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px; /* Or however much space you want */
+    margin-top: 30px;
     margin-bottom: 30px;
   }
   
   .icon-wrapper img {
-    width: 190px; /* Adjust size */
-    height: auto; /* Keeps proportions */
+    width: 190px;
+    height: auto; 
   }
 
 .centered-text {
@@ -257,7 +250,8 @@
     color: #f0f0f0;
 }
   
-/* Feature Section */
+/*features, hell yeah*/
+
 #features {
     padding: 60px 30px;
     background-color: #111111;
@@ -270,14 +264,12 @@
     margin-bottom: 40px;
   }
   
-  /* List of Features */
   .feature-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
   }
   
-  /* Feature Cards */
   .feature-card {
     background-color: #1a1a1a;
     border-radius: 12px;
@@ -288,17 +280,16 @@
     justify-content: space-between;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /*center the card*/
-    margin: 0 auto; /* Center the card horizontally */
+    margin: 0 auto; 
   }
   
-  /* Card Hover Effects */
+
   .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
   }
   
-  /* Title & Description */
+
   .feature-info {
     max-width: 50%;
   }
@@ -315,7 +306,6 @@
     color: #cccccc;
   }
   
-  /* GIF Styling */
   .feature-gif-wrapper {
     max-width: 45%;
   }
@@ -325,10 +315,10 @@
     height: auto;
     border-radius: 10px;
     object-fit: cover;
-    max-height: 200px; /* Prevent GIFs from becoming too large */
+    max-height: 200px;
   }
   
-  /* Responsive Design for Smaller Screens */
+  /* still have zero clue how this works. */
   @media (max-width: 768px) {
     .feature-list {
       gap: 20px;
@@ -357,6 +347,6 @@
     }
   
     .feature-gif {
-      max-height: 150px; /* Adjust GIF size for smaller screens */
+      max-height: 150px; 
     }
   }
