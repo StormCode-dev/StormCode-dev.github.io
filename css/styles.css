@@ -1,56 +1,362 @@
-/* Dark theme base styles */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #121212; /* Dark background */
-    color: #E0E0E0; /* Light gray text */
+/* General reset */
+* {
     margin: 0;
     padding: 0;
-}
-
-/* Header and navigation bar */
-header {
-    background-color: #1E1E1E; /* Slightly lighter dark */
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #070707;
+    color: #f0f0f0;
+  }
+  
+  /* Topbar styling with solid background */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1a1a1a; /* Solid blue background */
     color: white;
-    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.6em;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #6d49d1;
+  }
+  
+  /* Gradient section with fade effect */
+  .gradient-section {
+    position: relative;
+    height: 250px; /* Adjust this to fit the desired size */
+    background: linear-gradient(95deg, #51138b, #112b83, #461da7, #0c4188);
+    background-size: 800% 800%;
+    animation: auroraEffect 20s linear infinite;
+    overflow: hidden;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.gradient-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgb(7, 7, 7));
+    pointer-events: none; /* Make sure the fade doesn't interfere with interactions */
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+/* filepath: c:\Users\micro\Documents\GitHub\StormCode-dev.github.io\css\styles.css */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #383838;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-nav ul li a {
-    color: #BB86FC; /* Soft purple accent */
+.button:hover {
+    background-color: #36008d;
+    transform: scale(1.05);
+}
+
+.biglabel {
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+}
+  
+  /* Gradient animation */
+  @keyframes auroraEffect {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Content inside the gradient section */
+  .gradient-content {
+    position: relative;
+    z-index: 2; /* Make sure content is on top of the gradient */
+    padding: 40px 30px;
+    text-align: center;
+    color: white;
+  }
+  
+  .gradient-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .gradient-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  /* Main content section */
+  main {
+    padding: 60px 30px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .topbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links a {
+      font-size: 1.3em;
+    }
+  }
+
+/* Tools section */
+#tools {
+    padding: 60px 30px;
+    text-align: center;
+  }
+  
+  .tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .tool-card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    padding: 20px 30px;
+    width: 480px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease , background-color 0.3s ease;
+  }
+  
+  .tool-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background-color:  #252525
+  }
+  
+  .tool-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #6d49d1;
+  }
+  
+  .tool-card p {
+    font-size: 1em;
+    color: #cccccc;
+  }
+  
+
+  .subnav {
+    position: fixed;
+    top: 75px;            /* height of your topbar */
+    left: 50%;            /* center it horizontally */
+    transform: translateX(-50%);
+    width: 75%;
+    background-color: #1a1a1aab;
+    border: 2px solid #6d49d1;
+    padding: 10px 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    z-index: 999;
+    border-radius: 15px;
+  }
+
+
+  
+  .subnav a {
+    color: #f0f0f0;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1em;
     transition: color 0.3s ease;
+  }
+  
+  .subnav a:hover {
+    color: #6d49d1;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; /* Or however much space you want */
+    margin-bottom: 30px;
+  }
+  
+  .icon-wrapper img {
+    width: 190px; /* Adjust size */
+    height: auto; /* Keeps proportions */
+  }
+
+.centered-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #f0f0f0;
 }
 
-nav ul li a:hover {
-    color: #03DAC6; /* Teal accent on hover */
+.centered-label {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.6em;
+    color: #f0f0f0;
 }
-
-/* Main content area */
-main {
-    margin: 20px;
+  
+/* Feature Section */
+#features {
+    padding: 60px 30px;
+    background-color: #111111;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #f0f0f0;
+    margin-bottom: 40px;
+  }
+  
+  /* List of Features */
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  /* Feature Cards */
+  .feature-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    width: 95%;
     padding: 20px;
-    background: #1E1E1E; /* Dark card background */
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    display: inline-block;
-}
-
-/* Links */
-a {
-    color: #BB86FC;
-}
-
-a:hover {
-    color: #03DAC6;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /*center the card*/
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  /* Card Hover Effects */
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Title & Description */
+  .feature-info {
+    max-width: 50%;
+  }
+  
+  .feature-title {
+    font-size: 1.8em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #6d49d1;
+  }
+  
+  .feature-description {
+    font-size: 1.1em;
+    color: #cccccc;
+  }
+  
+  /* GIF Styling */
+  .feature-gif-wrapper {
+    max-width: 45%;
+  }
+  
+  .feature-gif {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 200px; /* Prevent GIFs from becoming too large */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .feature-list {
+      gap: 20px;
+    }
+  
+    .feature-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feature-info {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .feature-title {
+      font-size: 1.5em;
+    }
+  
+    .feature-description {
+      font-size: 1em;
+    }
+  
+    .feature-gif-wrapper {
+      max-width: 100%;
+    }
+  
+    .feature-gif {
+      max-height: 150px; /* Adjust GIF size for smaller screens */
+    }
+  }
