@@ -7,7 +7,7 @@ function injectClasses() {
   contentEl.querySelectorAll('p').forEach(el =>
     el.classList.add('centered-text')
   );
-  contentEl.querySelectorAll('ul').forEach(el =>
+  contentEl.querySelectorAll('ul, ol').forEach(el =>
     el.classList.add('generalCenter')
   );
 }
