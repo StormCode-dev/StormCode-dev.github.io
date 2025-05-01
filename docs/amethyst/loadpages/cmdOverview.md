@@ -14,3 +14,4 @@ Amethyst has commands that let you do who knows what with your project. The curr
 10. download: downloads a file, or multiple, from a repository
 
 This is a superficial overview. Check more of the commands' official pages to see more.
+
