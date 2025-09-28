@@ -1,0 +1,260 @@
++-= AMETHYST: Auto-Created geode for main.html added on 09/26/2025 at 12:48 AM
+
++-= (StormCode: Proposing changes) on 09/26/2025 at 01:33 AM
+
+LN17-SUB         <div> --CHANGEDTO[73d39]-->         <div class="sidebar-content">
+LN19-SUB           <div class="nav-links"> --CHANGEDTO[73d39]-->             <div class="scrollable-links">
+LN20-SUB             <a href="#" data-page="loadpages/default.md">Introduction</a> --CHANGEDTO[73d39]-->             <div class="nav-links">
+LN21-SUB  --CHANGEDTO[73d39]-->               <a href="#" data-page="loadpages/default.md">Introduction</a>
+LN22-SUB             <details> --CHANGEDTO[73d39]--> 
+LN23-SUB               <summary>Installation</summary> --CHANGEDTO[73d39]-->               <details>
+LN24-SUB               <a href="#" data-page="loadpages/installWin.md">Windows</a> --CHANGEDTO[73d39]-->                 <summary>Installation</summary>
+LN25-SUB               <a href="#" data-page="loadpages/unavailable.md">Linux</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/installWin.md">Windows</a>
+LN26-SUB             </details> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Linux</a>
+LN27-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/test.md">Sample</a>
+LN28-SUB             <details> --CHANGEDTO[73d39]-->               </details>
+LN29-SUB               <summary>Commands</summary> --CHANGEDTO[73d39]--> 
+LN30-SUB               <a href="#" data-page="loadpages/cmdOverview.md">Overview</a> --CHANGEDTO[73d39]-->               <details>
+LN31-SUB               <a href="#" data-page="loadpages/cmdWTUW.md">When To Use What</a> --CHANGEDTO[73d39]-->                 <summary>Commands</summary>
+LN32-SUB               <a href="#" data-page="loadpages/cmdGeoupd.md">Geoupd</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmdOverview.md">Overview</a>
+LN33-SUB               <a href="#" data-page="loadpages/cmdPush.md">Push</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmdWTUW.md">When To Use What</a>
+LN34-SUB               <a href="#" data-page="loadpages/unavailable.md">Pull</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmdGeoupd.md">Geoupd</a>
+LN35-SUB               <a href="#" data-page="loadpages/unavailable.md">Package</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmdPush.md">Push</a>
+LN36-SUB               <a href="#" data-page="loadpages/unavailable.md">Unpack</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Pull</a>
+LN37-SUB               <a href="#" data-page="loadpages/unavailable.md">Commit</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Package</a>
+LN38-SUB               <a href="#" data-page="loadpages/unavailable.md">Rollback</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Unpack</a>
+LN39-SUB               <a href="#" data-page="loadpages/unavailable.md">Undo</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Commit</a>
+LN40-SUB               <a href="#" data-page="loadpages/unavailable.md">Upload</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Rollback</a>
+LN41-SUB               <a href="#" data-page="loadpages/unavailable.md">Download</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Undo</a>
+LN42-SUB             </details> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Upload</a>
+LN43-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/unavailable.md">Download</a>
+LN44-SUB           </div> --CHANGEDTO[73d39]-->               </details>
+LN45-SUB         </div> --CHANGEDTO[73d39]--> 
+LN46-SUB  --CHANGEDTO[73d39]-->             </div>
+LN47-SUB         <div class="sidebar-footer"> --CHANGEDTO[73d39]-->           </div>
+LN48-SUB           <a href="../../tools/amethyst/amethyst.html" class="button">Back</a> --CHANGEDTO[73d39]-->         </div>
+LN49-SUB         </div> --CHANGEDTO[73d39]--> 
+LN50-SUB       </div> --CHANGEDTO[73d39]-->       <div class="sidebar-footer">
+LN51-SUB  --CHANGEDTO[73d39]-->         <a href="../../tools/amethyst/amethyst.html" class="button">Back</a>
+LN52-SUB  --CHANGEDTO[73d39]-->       </div>
+LN53-SUB     <main id="content"> --CHANGEDTO[73d39]-->     </div>
+LN54-SUB  --CHANGEDTO[73d39]--> 
+LN55-SUB     </main> --CHANGEDTO[73d39]--> 
+LN56-SUB     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script> --CHANGEDTO[73d39]-->     <main id="content">
+LN57-SUB     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> --CHANGEDTO[73d39]--> 
+LN58-SUB     <script src="code.js"></script> --CHANGEDTO[73d39]-->     </main>
+LN59-SUB     </body> --CHANGEDTO[73d39]-->     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+LN60-SUB </html> --CHANGEDTO[73d39]-->     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+LN61-ADD     <script src="code.js"></script>
+LN62-ADD     </body>
+LN63-ADD </html>
+
++-= (StormCode: Saving files to history because of evil, scary thunder) on 09/26/2025 at 03:11 PM
+
+LN22-SUB  --CHANGEDTO[73d39]--> 
+LN29-SUB  --CHANGEDTO[73d39]--> 
+LN30-SUB               <details> --CHANGEDTO[73d39]-->               <p class="sidebar-footer">Commands and Flags</p>
+LN31-SUB                 <summary>Commands</summary> --CHANGEDTO[73d39]--> 
+LN32-SUB                 <a href="#" data-page="loadpages/cmdOverview.md">Overview</a> --CHANGEDTO[73d39]-->               <details>
+LN33-SUB                 <a href="#" data-page="loadpages/cmdWTUW.md">When To Use What</a> --CHANGEDTO[73d39]-->                 <summary>Commands</summary>
+LN34-SUB                 <a href="#" data-page="loadpages/cmdGeoupd.md">Geoupd</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdOverview.md">Overview</a>
+LN35-SUB                 <a href="#" data-page="loadpages/cmdPush.md">Push</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdWTUW.md">When To Use What</a>
+LN36-SUB                 <a href="#" data-page="loadpages/unavailable.md">Pull</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdGeoupd.md">Geoupd</a>
+LN37-SUB                 <a href="#" data-page="loadpages/unavailable.md">Package</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdPush.md">Geopush</a>
+LN38-SUB                 <a href="#" data-page="loadpages/unavailable.md">Unpack</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdValidate.md">Validate</a>
+LN39-SUB                 <a href="#" data-page="loadpages/unavailable.md">Commit</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdInit.md">Init</a>
+LN40-SUB                 <a href="#" data-page="loadpages/unavailable.md">Rollback</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdUninstall.md">Uninstall</a>
+LN41-SUB                 <a href="#" data-page="loadpages/unavailable.md">Undo</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdReinit.md">Reinit</a>
+LN42-SUB                 <a href="#" data-page="loadpages/unavailable.md">Upload</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdDebug.md">Debug</a>
+LN43-SUB                 <a href="#" data-page="loadpages/unavailable.md">Download</a> --CHANGEDTO[73d39]-->               </details>
+LN44-SUB               </details> --CHANGEDTO[73d39]--> 
+LN45-SUB  --CHANGEDTO[73d39]-->               <details>
+LN46-SUB             </div> --CHANGEDTO[73d39]-->                 <summary>Flags</summary>
+LN47-SUB           </div> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/help.md">-h, help</a>
+LN48-SUB         </div> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/path.md">-p, Path</a>
+LN49-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/author.md">-a, author</a>
+LN50-SUB       <div class="sidebar-footer"> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/pushingauthor.md">-pa, pushingauthor</a>
+LN51-SUB         <a href="../../tools/amethyst/amethyst.html" class="button">Back</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/force.md">-f, force</a>
+LN52-SUB       </div> --CHANGEDTO[73d39]-->               </details>
+LN53-SUB     </div> --CHANGEDTO[73d39]--> 
+LN54-SUB  --CHANGEDTO[73d39]-->               <details>
+LN55-SUB  --CHANGEDTO[73d39]-->                 <summary>FAQ</summary>
+LN56-SUB     <main id="content"> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/modifiedFile.md">Amethyst warned me on a modified file!</a>
+LN57-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmdWTUW.md">I used a command, and it says that the repo is not initialized.</a>
+LN58-SUB     </main> --CHANGEDTO[73d39]-->               </details>
+LN59-SUB     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script> --CHANGEDTO[73d39]--> 
+LN60-SUB     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> --CHANGEDTO[73d39]-->             </div>
+LN61-SUB     <script src="code.js"></script> --CHANGEDTO[73d39]-->           </div>
+LN62-SUB     </body> --CHANGEDTO[73d39]-->         </div>
+LN63-SUB </html> --CHANGEDTO[73d39]--> 
+LN64-ADD       <div class="sidebar-footer">
+LN65-ADD         <a href="../../tools/amethyst/amethyst.html" class="expansive-button">Back</a>
+LN66-ADD       </div>
+LN67-ADD     </div>
+LN68-ADD       
+LN69-ADD     
+LN70-ADD     <main id="content">
+LN71-ADD 
+LN72-ADD     </main>
+LN73-ADD     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+LN74-ADD     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+LN75-ADD     <script src="code.js"></script>
+LN76-ADD     </body>
+LN77-ADD </html>
+
++-= (StormCode: Finished documentation) on 09/27/2025 at 11:31 PM
+
+LN54-SUB               <details> --CHANGEDTO[73d39]-->               <p class="sidebar-footer">Amethyst's Config</p>
+LN55-SUB                 <summary>FAQ</summary> --CHANGEDTO[73d39]--> 
+LN56-SUB                 <a href="#" data-page="loadpages/modifiedFile.md">Amethyst warned me on a modified file!</a> --CHANGEDTO[73d39]-->               <details>
+LN57-SUB                 <a href="#" data-page="loadpages/cmdWTUW.md">I used a command, and it says that the repo is not initialized.</a> --CHANGEDTO[73d39]-->                 <summary>Config</summary>
+LN58-SUB               </details> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/overview.md">Overview</a>
+LN59-SUB  --CHANGEDTO[73d39]-->               </details>
+LN60-SUB             </div> --CHANGEDTO[73d39]--> 
+LN61-SUB           </div> --CHANGEDTO[73d39]-->               <details>
+LN62-SUB         </div> --CHANGEDTO[73d39]-->                 <summary>Auto-Cleanups</summary>
+LN63-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/auto-cleanups/geodelogperiod.md">geodelogperiod</a>
+LN64-SUB       <div class="sidebar-footer"> --CHANGEDTO[73d39]-->               </details>
+LN65-SUB         <a href="../../tools/amethyst/amethyst.html" class="expansive-button">Back</a> --CHANGEDTO[73d39]--> 
+LN66-SUB       </div> --CHANGEDTO[73d39]-->               <details>
+LN67-SUB     </div> --CHANGEDTO[73d39]-->                 <summary>Prereqs</summary>
+LN68-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/prereqs/isMaster.md">isMaster</a>
+LN69-SUB  --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/prereqs/masterProjectDir.md">masterProjectDir</a>
+LN70-SUB     <main id="content"> --CHANGEDTO[73d39]-->               </details>
+LN72-SUB     </main> --CHANGEDTO[73d39]-->               <details>
+LN73-SUB     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script> --CHANGEDTO[73d39]-->                 <summary>Optimizations</summary>
+LN74-SUB     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/optimizations/compressAll.md">compressAll</a>
+LN75-SUB     <script src="code.js"></script> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/optimizations/hashAlgorithm.md">hashAlgorithm</a>
+LN76-SUB     </body> --CHANGEDTO[73d39]-->               </details>
+LN77-SUB </html> --CHANGEDTO[73d39]--> 
+LN78-ADD               <details>
+LN79-ADD                 <summary>Pointer Safety</summary>
+LN80-ADD                 <a href="#" data-page="loadpages/config/psafety/projectID.md">projectID</a>
+LN81-ADD                 <a href="#" data-page="loadpages/config/psafety/includePointerID.md">includePointerID</a>
+LN82-ADD                 <a href="#" data-page="loadpages/config/psafety/whatArePointers.md">What Are Pointers?</a>
+LN83-ADD               </details>
+LN84-ADD 
+LN85-ADD               <details>
+LN86-ADD                 <summary>Exclusions and the Exclusion Engine</summary>
+LN87-ADD                 <a href="#" data-page="loadpages/config/exclusions/ignoreDirs.md">ignoreDirs</a>
+LN88-ADD                 <a href="#" data-page="loadpages/config/exclusions/importantInfo.md">Important Info</a>
+LN89-ADD               </details>
+LN90-ADD 
+LN91-ADD 
+LN92-ADD               <p class="sidebar-footer">Other info you might need</p>
+LN93-ADD               <details>
+LN94-ADD                 <summary>FAQ</summary>
+LN95-ADD                 <a href="#" data-page="loadpages/modifiedFile.md">Amethyst warned me on a modified file!</a>
+LN96-ADD                 <a href="#" data-page="loadpages/notInit.md">I used a command, and it says that the repo is not initialized.</a>
+LN97-ADD               </details>
+LN98-ADD             
+LN99-ADD             </div>
+LN100-ADD           </div>
+LN101-ADD         </div>
+LN102-ADD       
+LN103-ADD       <div class="sidebar-footer">
+LN104-ADD         <a href="../../tools/amethyst/amethyst.html" class="expansive-button">Back</a>
+LN105-ADD       </div>
+LN106-ADD     </div>
+LN107-ADD       
+LN108-ADD     
+LN109-ADD     <main id="content">
+LN110-ADD 
+LN111-ADD     </main>
+LN112-ADD     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+LN113-ADD     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+LN114-ADD     <script src="code.js"></script>
+LN115-ADD     </body>
+LN116-ADD </html>
+
++-= (StormCode: Refined Amethyst portion of Website) on 09/27/2025 at 11:44 PM
+
+LN27-SUB                 <a href="#" data-page="loadpages/test.md">Sample</a> --CHANGEDTO[73d39]-->               </details>
+LN28-SUB               </details> --CHANGEDTO[73d39]--> 
+LN29-SUB  --CHANGEDTO[73d39]-->               <p class="sidebar-footer">Commands and Flags</p>
+LN30-SUB               <p class="sidebar-footer">Commands and Flags</p> --CHANGEDTO[73d39]--> 
+LN31-SUB  --CHANGEDTO[73d39]-->               <details>
+LN32-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Commands</summary>
+LN33-SUB                 <summary>Commands</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdOverview.md">Overview</a>
+LN34-SUB                 <a href="#" data-page="loadpages/cmds/cmdOverview.md">Overview</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdWTUW.md">When To Use What</a>
+LN35-SUB                 <a href="#" data-page="loadpages/cmds/cmdWTUW.md">When To Use What</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdGeoupd.md">Geoupd</a>
+LN36-SUB                 <a href="#" data-page="loadpages/cmds/cmdGeoupd.md">Geoupd</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdPush.md">Geopush</a>
+LN37-SUB                 <a href="#" data-page="loadpages/cmds/cmdPush.md">Geopush</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdValidate.md">Validate</a>
+LN38-SUB                 <a href="#" data-page="loadpages/cmds/cmdValidate.md">Validate</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdInit.md">Init</a>
+LN39-SUB                 <a href="#" data-page="loadpages/cmds/cmdInit.md">Init</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdUninstall.md">Uninstall</a>
+LN40-SUB                 <a href="#" data-page="loadpages/cmds/cmdUninstall.md">Uninstall</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdReinit.md">Reinit</a>
+LN41-SUB                 <a href="#" data-page="loadpages/cmds/cmdReinit.md">Reinit</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/cmds/cmdDebug.md">Debug</a>
+LN42-SUB                 <a href="#" data-page="loadpages/cmds/cmdDebug.md">Debug</a> --CHANGEDTO[73d39]-->               </details>
+LN43-SUB               </details> --CHANGEDTO[73d39]--> 
+LN44-SUB  --CHANGEDTO[73d39]-->               <details>
+LN45-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Flags</summary>
+LN46-SUB                 <summary>Flags</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/help.md">-h, help</a>
+LN47-SUB                 <a href="#" data-page="loadpages/flags/help.md">-h, help</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/path.md">-p, Path</a>
+LN48-SUB                 <a href="#" data-page="loadpages/flags/path.md">-p, Path</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/author.md">-a, author</a>
+LN49-SUB                 <a href="#" data-page="loadpages/flags/author.md">-a, author</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/pushingauthor.md">-pa, pushingauthor</a>
+LN50-SUB                 <a href="#" data-page="loadpages/flags/pushingauthor.md">-pa, pushingauthor</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/flags/force.md">-f, force</a>
+LN51-SUB                 <a href="#" data-page="loadpages/flags/force.md">-f, force</a> --CHANGEDTO[73d39]-->               </details>
+LN52-SUB               </details> --CHANGEDTO[73d39]--> 
+LN53-SUB  --CHANGEDTO[73d39]-->               <p class="sidebar-footer">Amethyst's Config</p>
+LN54-SUB               <p class="sidebar-footer">Amethyst's Config</p> --CHANGEDTO[73d39]--> 
+LN55-SUB  --CHANGEDTO[73d39]-->               <details>
+LN56-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Config</summary>
+LN57-SUB                 <summary>Config</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/overview.md">Overview</a>
+LN58-SUB                 <a href="#" data-page="loadpages/config/overview.md">Overview</a> --CHANGEDTO[73d39]-->               </details>
+LN59-SUB               </details> --CHANGEDTO[73d39]--> 
+LN60-SUB  --CHANGEDTO[73d39]-->               <details>
+LN61-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Auto-Cleanups</summary>
+LN62-SUB                 <summary>Auto-Cleanups</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/auto-cleanups/geodelogperiod.md">geodelogperiod</a>
+LN63-SUB                 <a href="#" data-page="loadpages/config/auto-cleanups/geodelogperiod.md">geodelogperiod</a> --CHANGEDTO[73d39]-->               </details>
+LN64-SUB               </details> --CHANGEDTO[73d39]--> 
+LN65-SUB  --CHANGEDTO[73d39]-->               <details>
+LN66-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Prereqs</summary>
+LN67-SUB                 <summary>Prereqs</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/prereqs/isMaster.md">isMaster</a>
+LN68-SUB                 <a href="#" data-page="loadpages/config/prereqs/isMaster.md">isMaster</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/prereqs/masterProjectDir.md">masterProjectDir</a>
+LN69-SUB                 <a href="#" data-page="loadpages/config/prereqs/masterProjectDir.md">masterProjectDir</a> --CHANGEDTO[73d39]-->               </details>
+LN70-SUB               </details> --CHANGEDTO[73d39]--> 
+LN71-SUB  --CHANGEDTO[73d39]-->               <details>
+LN72-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Optimizations</summary>
+LN73-SUB                 <summary>Optimizations</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/optimizations/compressAll.md">compressAll</a>
+LN74-SUB                 <a href="#" data-page="loadpages/config/optimizations/compressAll.md">compressAll</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/optimizations/hashAlgorithm.md">hashAlgorithm</a>
+LN75-SUB                 <a href="#" data-page="loadpages/config/optimizations/hashAlgorithm.md">hashAlgorithm</a> --CHANGEDTO[73d39]-->               </details>
+LN76-SUB               </details> --CHANGEDTO[73d39]--> 
+LN77-SUB  --CHANGEDTO[73d39]-->               <details>
+LN78-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Pointer Safety</summary>
+LN79-SUB                 <summary>Pointer Safety</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/psafety/projectID.md">projectID</a>
+LN80-SUB                 <a href="#" data-page="loadpages/config/psafety/projectID.md">projectID</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/psafety/includePointerID.md">includePointerID</a>
+LN81-SUB                 <a href="#" data-page="loadpages/config/psafety/includePointerID.md">includePointerID</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/psafety/whatArePointers.md">What Are Pointers?</a>
+LN82-SUB                 <a href="#" data-page="loadpages/config/psafety/whatArePointers.md">What Are Pointers?</a> --CHANGEDTO[73d39]-->               </details>
+LN83-SUB               </details> --CHANGEDTO[73d39]--> 
+LN84-SUB  --CHANGEDTO[73d39]-->               <details>
+LN85-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>Exclusions and the Exclusion Engine</summary>
+LN86-SUB                 <summary>Exclusions and the Exclusion Engine</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/exclusions/ignoreDirs.md">ignoreDirs</a>
+LN87-SUB                 <a href="#" data-page="loadpages/config/exclusions/ignoreDirs.md">ignoreDirs</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/config/exclusions/importantInfo.md">Important Info</a>
+LN88-SUB                 <a href="#" data-page="loadpages/config/exclusions/importantInfo.md">Important Info</a> --CHANGEDTO[73d39]-->               </details>
+LN89-SUB               </details> --CHANGEDTO[73d39]--> 
+LN91-SUB  --CHANGEDTO[73d39]-->               <p class="sidebar-footer">Other info you might need</p>
+LN92-SUB               <p class="sidebar-footer">Other info you might need</p> --CHANGEDTO[73d39]-->               <details>
+LN93-SUB               <details> --CHANGEDTO[73d39]-->                 <summary>FAQ</summary>
+LN94-SUB                 <summary>FAQ</summary> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/modifiedFile.md">Amethyst warned me on a modified file!</a>
+LN95-SUB                 <a href="#" data-page="loadpages/modifiedFile.md">Amethyst warned me on a modified file!</a> --CHANGEDTO[73d39]-->                 <a href="#" data-page="loadpages/notInit.md">I used a command, and it says that the repo is not initialized.</a>
+LN96-SUB                 <a href="#" data-page="loadpages/notInit.md">I used a command, and it says that the repo is not initialized.</a> --CHANGEDTO[73d39]-->               </details>
+LN97-SUB               </details> --CHANGEDTO[73d39]--> 
+LN98-SUB  --CHANGEDTO[73d39]-->             </div>
+LN99-SUB             </div> --CHANGEDTO[73d39]-->           </div>
+LN100-SUB           </div> --CHANGEDTO[73d39]-->         </div>
+LN101-SUB         </div> --CHANGEDTO[73d39]--> 
+LN102-SUB  --CHANGEDTO[73d39]-->       <div class="sidebar-footer">
+LN103-SUB       <div class="sidebar-footer"> --CHANGEDTO[73d39]-->         <a href="../../tools/amethyst/amethyst.html" class="expansive-button">Back</a>
+LN104-SUB         <a href="../../tools/amethyst/amethyst.html" class="expansive-button">Back</a> --CHANGEDTO[73d39]-->       </div>
+LN105-SUB       </div> --CHANGEDTO[73d39]-->     </div>
+LN106-SUB     </div> --CHANGEDTO[73d39]--> 
+LN107-SUB  --CHANGEDTO[73d39]--> 
+LN108-SUB  --CHANGEDTO[73d39]-->     <main id="content">
+LN109-SUB     <main id="content"> --CHANGEDTO[73d39]--> 
+LN110-SUB  --CHANGEDTO[73d39]-->     </main>
+LN111-SUB     </main> --CHANGEDTO[73d39]-->     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+LN112-SUB     <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script> --CHANGEDTO[73d39]-->     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+LN113-SUB     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> --CHANGEDTO[73d39]-->     <script src="code.js"></script>
+LN114-SUB     <script src="code.js"></script> --CHANGEDTO[73d39]-->     </body>
+LN115-SUB     </body> --CHANGEDTO[73d39]--> </html>
+LN116-RM </html>

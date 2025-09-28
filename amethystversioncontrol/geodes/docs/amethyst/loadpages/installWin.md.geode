@@ -1,0 +1,30 @@
++-= AMETHYST: Auto-Created geode for installWin.md added on 09/26/2025 at 12:48 AM
+
++-= (StormCode: Proposing changes) on 09/26/2025 at 01:33 AM
+
+LN1-SUB # Install for Windows --CHANGEDTO[73d39]--> # To setup:
+LN3-SUB Installing Amethyst for Windows is easy. On the front page for Amethyst, at the bottom, you should've seen a direct download link for Amethyst Windows. **Right now, This does not work, as Amethyst is not at the point where there is a public release.** When it is available, you can click the Download button and recieve a zipped folder that contains Amethyst as a compiled Binary. --CHANGEDTO[73d39]--> 1. Place the EXE in any folder you would like
+LN4-SUB  --CHANGEDTO[73d39]--> 2. Copy the path of the folder
+LN5-SUB From here, you can assign a PATH yourself or let Amethyst try to make one for you. If you opt to let Amethyst do it for you, simply double-click the executable binary to run it. It will pop up with setup info and get prepared, alongside prompting you if you want a PATH auto-assigned. --CHANGEDTO[73d39]--> 3. Go to your environment variables, and under system, paste this
+LN6-SUB  --CHANGEDTO[73d39]--> 4. Restart your IDE, Shell, or system
+LN7-SUB Amethyst will always pop up with a CLI menu if zero commands are issued. Otherwise, Amethyst will run like a executable lib. --CHANGEDTO[73d39]--> 
+LN9-SUB **It's important to note that Windows Defender, or any AV Product will flag Amethyst as malicious because Amethyst, as of right now, has zero certificates, like a Norton Cetificate (they are 200 dollars). You'd have to make a rule on your AV for Amethyst to run properly. Maybe one day i'll amass enough money to get a wildly expensive certificate to not have AV's screaming at people for a potential security hazard, but i simply cant right now.** --CHANGEDTO[73d39]--> # Getting started:
+LN11-ADD Run "amethyst debug" to verify your install
+LN12-ADD 
+LN13-ADD If all goes well, you should see:
+LN14-ADD ```
+LN15-ADD AVCS: Debug Status------------------------------------------------------------------
+LN16-ADD AVCS: Build 9-23-2025 : STABLE
+LN17-ADD AVCS: Current Directory: C:\Users\micro
+LN18-ADD AVCS: ADE version: 0.1a (Dark Tides)
+LN19-ADD AVCS: Have any issues? Report them on either the GitHub repo or my Discord server.
+LN20-ADD ```
+LN21-ADD 
+LN22-ADD To get started, you can run "amethyst init" when cd'd into a directory, or manually specify.
+LN23-ADD 
+LN24-ADD 1: amethyst init (assumes cwd)
+LN25-ADD 
+LN26-ADD 2: amethyst init -p "D:\path\torepo"
+LN27-ADD 
+LN28-ADD **It's important to note that Windows Defender, or any AV Product will flag Amethyst as malicious because Amethyst, as of right now, has zero certificates, like a Norton Cetificate (they are 200 dollars). You would have to make a rule on your AV for Amethyst to run properly. Maybe one day i'll amass enough money to get a wildly expensive certificate to not have AV's screaming at people for a potential security hazard, but i simply cant right now.**
+LN29-ADD 

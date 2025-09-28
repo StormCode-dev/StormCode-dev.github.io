@@ -1,0 +1,56 @@
+META-=
+Developers: StormCode
+Pushing Author: StormCode
+Reason: Finished docs, Refined Amethyst and Main webpages.
+SnapshotTimestamp: 09/27/2025 at 11:46 PM
+META-=
+
+<index.html>-=
+
++-= (StormCode: Refined index.html) on 09/27/2025 at 11:46 PM
+
+LN36-SUB           The tools i create are intended to enable all developers, teams, and companies to help <br>them achieve their goals. --CHANGEDTO[73d39]-->           The tools I create are intended to enable all developers, teams, and companies to help <br>them achieve their goals.
+LN45-SUB           <h1>Tools I Made</h1> --CHANGEDTO[73d39]-->           <h1>Tools you might like that I've made</h1>
+LN50-SUB               <a href="tools/amethyst/amethyst.html" class="button">More</a> --CHANGEDTO[73d39]-->               <br>
+LN51-SUB             </div> --CHANGEDTO[73d39]-->               <a href="tools/amethyst/amethyst.html" class="button">More</a>
+LN52-SUB           </div> --CHANGEDTO[73d39]-->             </div>
+LN53-SUB         </section> --CHANGEDTO[73d39]-->           </div>
+LN54-SUB  --CHANGEDTO[73d39]-->         </section>
+LN55-SUB     </section> --CHANGEDTO[73d39]--> 
+LN56-SUB   </main> --CHANGEDTO[73d39]-->     </section>
+LN57-SUB  --CHANGEDTO[73d39]-->   </main>
+LN58-SUB </body> --CHANGEDTO[73d39]--> 
+LN59-SUB </html> --CHANGEDTO[73d39]--> </body>
+LN60-ADD </html>
+
+<index.html>-=
+END OF FILE
+
+<package-lock.json>-=
+
+
+
+<package-lock.json>-=
+END OF FILE
+
+<package.json>-=
+
+
+
+<package.json>-=
+END OF FILE
+
+<projects.html>-=
+
+
+
+<projects.html>-=
+END OF FILE
+
+<README.md>-=
+
+
+
+<README.md>-=
+END OF FILE
+

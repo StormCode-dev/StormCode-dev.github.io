@@ -236,26 +236,6 @@
     width: 190px;
     height: auto; 
   }
-
-.centered-text {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.2em;
-    color: #f0f0f0;
-    /*slightly make the area for it smaller*/
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.centered-label {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.6em;
-    color: #f0f0f0;
-
-}
-  
 /*features, hell yeah*/
 
 #features {
@@ -363,19 +343,46 @@
 }
 
 .sidebar {
-    width: 290px;
-    background-color: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-    border-right: 2px solid #6d49d1;
-    /*put it to the left */
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-  }
+  width: 290px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 2px solid #6d49d1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.sidebar .sidebar-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.scrollable-links {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; 
+  padding-right: 6px; 
+  max-height: calc(100vh - 140px);
+}
+
+/* this portion was not written by me */
+.scrollable-links::-webkit-scrollbar {
+  width: 10px;
+}
+.scrollable-links::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollable-links::-webkit-scrollbar-thumb {
+  background-color: rgba(109,73,209,0.35);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
   .sidebar-header {
     font-size: 1.8em;
     font-weight: bold;
@@ -384,13 +391,16 @@
     margin-bottom: 20px;
     
   }
+
   .nav-links {
-    flex-grow: 1;
-    overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 5px; /* for scrollbar spacing */
   }
+
   .nav-links a {
     text-decoration: none;
     color: #f0f0f0;
@@ -398,6 +408,7 @@
     font-size: 1.1em;
     transition: color 0.3s ease;
   }
+  
   .nav-links a:hover {
     color: #6d49d1;
   }
@@ -416,6 +427,23 @@
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   .button:hover {
+    background-color: #36008d;
+    transform: scale(1.05);
+  }
+
+  .expansive-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #383838;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 90%;
+    text-align: center;
+  }
+  .expansive-button:hover {
     background-color: #36008d;
     transform: scale(1.05);
   }
@@ -448,11 +476,46 @@
     font-size: 1em;
   }
 
+
+/* CLASS STYLING FOR INJECTED CLASSES FROM MD */
+
 .generalCenter{
   /*ideally centers nearly anything to the center of the main content frame*/
   align-items: center;
   text-align: center;
   display: flex;
   flex-direction: column;
+}
 
-  }
+.centered-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #f0f0f0;
+    /*slightly make the area for it smaller*/
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered-label {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.6em;
+    color: #f0f0f0;
+}
+
+.code-block {
+  background-color: #1d1d1d;
+  border: 2px solid #4620af;
+  padding: 15px;
+  margin: 25px auto;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: #f8f8f2;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+  

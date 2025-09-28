@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/StormCode-dev/StormCode-dev.github.io/issues"
   },
-  "homepage": "https://github.com/StormCode-dev/StormCode-dev.github.io#readme"
+  "homepage": "https://github.com/StormCode-dev/StormCode-dev.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
 }

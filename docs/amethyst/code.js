@@ -1,15 +1,24 @@
 // unreasonably silly
+
+// maps selectors to classes, duh
+const classMap = {
+  'h1,h2,h3,h4,h5,h6': 'centered-label',
+  'p': 'centered-text',
+  'ul,ol': 'generalCenter',
+  'blockquote': 'blockquote-style',
+  'pre': 'code-block',
+  'pre > code': 'inline-code',
+  'img': 'responsive-img',
+  'table': 'styled-table'
+};
+
 function injectClasses() {
   const contentEl = document.getElementById('content');
-  contentEl.querySelectorAll('h1, h2').forEach(el =>
-    el.classList.add('centered-label')
-  );
-  contentEl.querySelectorAll('p').forEach(el =>
-    el.classList.add('centered-text')
-  );
-  contentEl.querySelectorAll('ul, ol').forEach(el =>
-    el.classList.add('generalCenter')
-  );
+  for (const selector in classMap) {
+    contentEl.querySelectorAll(selector).forEach(el => {
+      el.classList.add(classMap[selector]);
+    });
+  }
 }
 
 document.querySelectorAll('a[data-page]').forEach(link => {

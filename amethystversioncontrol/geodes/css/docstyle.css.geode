@@ -1,0 +1,353 @@
++-= AMETHYST: Auto-Created geode for docstyle.css added on 09/26/2025 at 12:48 AM
+
++-= (StormCode: Proposing changes) on 09/26/2025 at 01:33 AM
+
+LN239-SUB  --CHANGEDTO[73d39]--> /*features, hell yeah*/
+LN240-SUB .centered-text { --CHANGEDTO[73d39]--> 
+LN241-SUB     text-align: center; --CHANGEDTO[73d39]--> #features {
+LN242-SUB     margin-top: 20px; --CHANGEDTO[73d39]-->     padding: 60px 30px;
+LN243-SUB     font-size: 1.2em; --CHANGEDTO[73d39]-->     background-color: #111111;
+LN244-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->   }
+LN245-SUB     /*slightly make the area for it smaller*/ --CHANGEDTO[73d39]--> 
+LN246-SUB     max-width: 80%; --CHANGEDTO[73d39]-->   .section-title {
+LN247-SUB     margin-left: auto; --CHANGEDTO[73d39]-->     text-align: center;
+LN248-SUB     margin-right: auto; --CHANGEDTO[73d39]-->     font-size: 2.5em;
+LN249-SUB   } --CHANGEDTO[73d39]-->     color: #f0f0f0;
+LN250-SUB  --CHANGEDTO[73d39]-->     margin-bottom: 40px;
+LN251-SUB .centered-label { --CHANGEDTO[73d39]-->   }
+LN252-SUB     text-align: center; --CHANGEDTO[73d39]--> 
+LN253-SUB     margin-top: 20px; --CHANGEDTO[73d39]-->   .feature-list {
+LN254-SUB     font-size: 2.6em; --CHANGEDTO[73d39]-->     display: flex;
+LN255-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->     flex-direction: column;
+LN256-SUB  --CHANGEDTO[73d39]-->     gap: 40px;
+LN257-SUB } --CHANGEDTO[73d39]-->   }
+LN259-SUB /*features, hell yeah*/ --CHANGEDTO[73d39]-->   .feature-card {
+LN260-SUB  --CHANGEDTO[73d39]-->     background-color: #1a1a1a;
+LN261-SUB #features { --CHANGEDTO[73d39]-->     border-radius: 12px;
+LN262-SUB     padding: 60px 30px; --CHANGEDTO[73d39]-->     width: 95%;
+LN263-SUB     background-color: #111111; --CHANGEDTO[73d39]-->     padding: 20px;
+LN264-SUB   } --CHANGEDTO[73d39]-->     display: flex;
+LN265-SUB  --CHANGEDTO[73d39]-->     align-items: center;
+LN266-SUB   .section-title { --CHANGEDTO[73d39]-->     justify-content: space-between;
+LN267-SUB     text-align: center; --CHANGEDTO[73d39]-->     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+LN268-SUB     font-size: 2.5em; --CHANGEDTO[73d39]-->     transition: transform 0.3s ease, box-shadow 0.3s ease;
+LN269-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->     margin: 0 auto;
+LN270-SUB     margin-bottom: 40px; --CHANGEDTO[73d39]-->   }
+LN271-SUB   } --CHANGEDTO[73d39]--> 
+LN272-SUB  --CHANGEDTO[73d39]--> 
+LN273-SUB   .feature-list { --CHANGEDTO[73d39]-->   .feature-card:hover {
+LN274-SUB     display: flex; --CHANGEDTO[73d39]-->     transform: translateY(-5px);
+LN275-SUB     flex-direction: column; --CHANGEDTO[73d39]-->     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+LN276-SUB     gap: 40px; --CHANGEDTO[73d39]-->   }
+LN277-SUB   } --CHANGEDTO[73d39]--> 
+LN278-SUB  --CHANGEDTO[73d39]--> 
+LN279-SUB   .feature-card { --CHANGEDTO[73d39]-->   .feature-info {
+LN280-SUB     background-color: #1a1a1a; --CHANGEDTO[73d39]-->     max-width: 50%;
+LN281-SUB     border-radius: 12px; --CHANGEDTO[73d39]-->   }
+LN282-SUB     width: 95%; --CHANGEDTO[73d39]--> 
+LN283-SUB     padding: 20px; --CHANGEDTO[73d39]-->   .feature-title {
+LN284-SUB     display: flex; --CHANGEDTO[73d39]-->     font-size: 1.8em;
+LN285-SUB     align-items: center; --CHANGEDTO[73d39]-->     margin-top: 15px;
+LN286-SUB     justify-content: space-between; --CHANGEDTO[73d39]-->     margin-bottom: 15px;
+LN287-SUB     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); --CHANGEDTO[73d39]-->     color: #6d49d1;
+LN288-SUB     transition: transform 0.3s ease, box-shadow 0.3s ease; --CHANGEDTO[73d39]-->   }
+LN289-SUB     margin: 0 auto; --CHANGEDTO[73d39]--> 
+LN290-SUB   } --CHANGEDTO[73d39]-->   .feature-description {
+LN291-SUB  --CHANGEDTO[73d39]-->     font-size: 1.1em;
+LN292-SUB  --CHANGEDTO[73d39]-->     color: #cccccc;
+LN293-SUB   .feature-card:hover { --CHANGEDTO[73d39]-->   }
+LN294-SUB     transform: translateY(-5px); --CHANGEDTO[73d39]--> 
+LN295-SUB     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4); --CHANGEDTO[73d39]-->   .feature-gif-wrapper {
+LN296-SUB   } --CHANGEDTO[73d39]-->     max-width: 45%;
+LN297-SUB  --CHANGEDTO[73d39]-->   }
+LN298-SUB  --CHANGEDTO[73d39]--> 
+LN299-SUB   .feature-info { --CHANGEDTO[73d39]-->   .feature-gif {
+LN300-SUB     max-width: 50%; --CHANGEDTO[73d39]-->     width: 100%;
+LN301-SUB   } --CHANGEDTO[73d39]-->     height: auto;
+LN302-SUB  --CHANGEDTO[73d39]-->     border-radius: 10px;
+LN303-SUB   .feature-title { --CHANGEDTO[73d39]-->     object-fit: cover;
+LN304-SUB     font-size: 1.8em; --CHANGEDTO[73d39]-->     max-height: 200px;
+LN305-SUB     margin-top: 15px; --CHANGEDTO[73d39]-->   }
+LN306-SUB     margin-bottom: 15px; --CHANGEDTO[73d39]--> 
+LN307-SUB     color: #6d49d1; --CHANGEDTO[73d39]-->   /* still have zero clue how this works. */
+LN308-SUB   } --CHANGEDTO[73d39]-->   @media (max-width: 768px) {
+LN309-SUB  --CHANGEDTO[73d39]-->     .feature-list {
+LN310-SUB   .feature-description { --CHANGEDTO[73d39]-->       gap: 20px;
+LN311-SUB     font-size: 1.1em; --CHANGEDTO[73d39]-->     }
+LN312-SUB     color: #cccccc; --CHANGEDTO[73d39]--> 
+LN313-SUB   } --CHANGEDTO[73d39]-->     .feature-card {
+LN314-SUB  --CHANGEDTO[73d39]-->       flex-direction: column;
+LN315-SUB   .feature-gif-wrapper { --CHANGEDTO[73d39]-->       text-align: center;
+LN316-SUB     max-width: 45%; --CHANGEDTO[73d39]-->     }
+LN317-SUB   } --CHANGEDTO[73d39]--> 
+LN318-SUB  --CHANGEDTO[73d39]-->     .feature-info {
+LN319-SUB   .feature-gif { --CHANGEDTO[73d39]-->       max-width: 100%;
+LN320-SUB     width: 100%; --CHANGEDTO[73d39]-->       margin-bottom: 20px;
+LN321-SUB     height: auto; --CHANGEDTO[73d39]-->     }
+LN322-SUB     border-radius: 10px; --CHANGEDTO[73d39]--> 
+LN323-SUB     object-fit: cover; --CHANGEDTO[73d39]-->     .feature-title {
+LN324-SUB     max-height: 200px; --CHANGEDTO[73d39]-->       font-size: 1.5em;
+LN325-SUB   } --CHANGEDTO[73d39]-->     }
+LN327-SUB   /* still have zero clue how this works. */ --CHANGEDTO[73d39]-->     .feature-description {
+LN328-SUB   @media (max-width: 768px) { --CHANGEDTO[73d39]-->       font-size: 1em;
+LN329-SUB     .feature-list { --CHANGEDTO[73d39]-->     }
+LN330-SUB       gap: 20px; --CHANGEDTO[73d39]--> 
+LN331-SUB     } --CHANGEDTO[73d39]-->     .feature-gif-wrapper {
+LN332-SUB  --CHANGEDTO[73d39]-->       max-width: 100%;
+LN333-SUB     .feature-card { --CHANGEDTO[73d39]-->     }
+LN334-SUB       flex-direction: column; --CHANGEDTO[73d39]--> 
+LN335-SUB       text-align: center; --CHANGEDTO[73d39]-->     .feature-gif {
+LN336-SUB     } --CHANGEDTO[73d39]-->       max-height: 150px;
+LN337-SUB  --CHANGEDTO[73d39]-->     }
+LN338-SUB     .feature-info { --CHANGEDTO[73d39]-->   }
+LN339-SUB       max-width: 100%; --CHANGEDTO[73d39]--> 
+LN340-SUB       margin-bottom: 20px; --CHANGEDTO[73d39]-->   .docs-container {
+LN341-SUB     } --CHANGEDTO[73d39]-->     display: flex;
+LN342-SUB  --CHANGEDTO[73d39]-->     height: calc(100vh); /* Topbar height */
+LN343-SUB     .feature-title { --CHANGEDTO[73d39]--> }
+LN344-SUB       font-size: 1.5em; --CHANGEDTO[73d39]--> 
+LN345-SUB     } --CHANGEDTO[73d39]--> .sidebar {
+LN346-SUB  --CHANGEDTO[73d39]-->   width: 290px;
+LN347-SUB     .feature-description { --CHANGEDTO[73d39]-->   background-color: #1a1a1a;
+LN348-SUB       font-size: 1em; --CHANGEDTO[73d39]-->   display: flex;
+LN349-SUB     } --CHANGEDTO[73d39]-->   flex-direction: column;
+LN350-SUB  --CHANGEDTO[73d39]-->   justify-content: space-between;
+LN351-SUB     .feature-gif-wrapper { --CHANGEDTO[73d39]-->   padding: 20px;
+LN352-SUB       max-width: 100%; --CHANGEDTO[73d39]-->   border-right: 2px solid #6d49d1;
+LN353-SUB     } --CHANGEDTO[73d39]-->   position: fixed;
+LN354-SUB  --CHANGEDTO[73d39]-->   top: 0;
+LN355-SUB     .feature-gif { --CHANGEDTO[73d39]-->   left: 0;
+LN356-SUB       max-height: 150px; --CHANGEDTO[73d39]-->   height: 100vh;
+LN357-SUB     } --CHANGEDTO[73d39]--> }
+LN358-SUB   } --CHANGEDTO[73d39]--> 
+LN359-SUB  --CHANGEDTO[73d39]--> .sidebar .sidebar-content {
+LN360-SUB   .docs-container { --CHANGEDTO[73d39]-->   display: flex;
+LN361-SUB     display: flex; --CHANGEDTO[73d39]-->   flex-direction: column;
+LN362-SUB     height: calc(100vh); /* Topbar height */ --CHANGEDTO[73d39]-->   height: 100%;
+LN365-SUB .sidebar { --CHANGEDTO[73d39]--> .scrollable-links {
+LN366-SUB     width: 290px; --CHANGEDTO[73d39]-->   overflow-y: auto;
+LN367-SUB     background-color: #1a1a1a; --CHANGEDTO[73d39]-->   -webkit-overflow-scrolling: touch;
+LN368-SUB     display: flex; --CHANGEDTO[73d39]-->   padding-right: 6px;
+LN369-SUB     flex-direction: column; --CHANGEDTO[73d39]-->   max-height: calc(100vh - 140px);
+LN370-SUB     justify-content: space-between; --CHANGEDTO[73d39]--> }
+LN371-SUB     padding: 20px; --CHANGEDTO[73d39]--> 
+LN372-SUB     border-right: 2px solid #6d49d1; --CHANGEDTO[73d39]--> /* this portion was not written by me */
+LN373-SUB     /*put it to the left */ --CHANGEDTO[73d39]--> .scrollable-links::-webkit-scrollbar {
+LN374-SUB     position: fixed; --CHANGEDTO[73d39]-->   width: 10px;
+LN375-SUB     top: 0; --CHANGEDTO[73d39]--> }
+LN376-SUB     left: 0; --CHANGEDTO[73d39]--> .scrollable-links::-webkit-scrollbar-track {
+LN377-SUB     height: 100vh; --CHANGEDTO[73d39]-->   background: transparent;
+LN378-SUB     overflow-y: auto; --CHANGEDTO[73d39]--> }
+LN379-SUB   } --CHANGEDTO[73d39]--> .scrollable-links::-webkit-scrollbar-thumb {
+LN380-SUB   .sidebar-header { --CHANGEDTO[73d39]-->   background-color: rgba(109,73,209,0.35);
+LN381-SUB     font-size: 1.8em; --CHANGEDTO[73d39]-->   border-radius: 8px;
+LN382-SUB     font-weight: bold; --CHANGEDTO[73d39]-->   border: 2px solid transparent;
+LN383-SUB     color: #6d49d1; --CHANGEDTO[73d39]-->   background-clip: padding-box;
+LN384-SUB     text-align: center; --CHANGEDTO[73d39]--> }
+LN385-SUB     margin-bottom: 20px; --CHANGEDTO[73d39]--> 
+LN386-SUB  --CHANGEDTO[73d39]-->   .sidebar-header {
+LN387-SUB   } --CHANGEDTO[73d39]-->     font-size: 1.8em;
+LN388-SUB   .nav-links { --CHANGEDTO[73d39]-->     font-weight: bold;
+LN389-SUB     flex-grow: 1; --CHANGEDTO[73d39]-->     color: #6d49d1;
+LN390-SUB     overflow-y: auto; --CHANGEDTO[73d39]-->     text-align: center;
+LN391-SUB     display: flex; --CHANGEDTO[73d39]-->     margin-bottom: 20px;
+LN392-SUB     flex-direction: column; --CHANGEDTO[73d39]--> 
+LN393-SUB     gap: 15px; --CHANGEDTO[73d39]-->   }
+LN394-SUB   } --CHANGEDTO[73d39]--> 
+LN395-SUB   .nav-links a { --CHANGEDTO[73d39]-->   .nav-links {
+LN396-SUB     text-decoration: none; --CHANGEDTO[73d39]-->   flex-grow: 1;
+LN397-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->   overflow-y: auto;
+LN398-SUB     text-align: center; --CHANGEDTO[73d39]-->   display: flex;
+LN399-SUB     font-size: 1.1em; --CHANGEDTO[73d39]-->   flex-direction: column;
+LN400-SUB     transition: color 0.3s ease; --CHANGEDTO[73d39]-->   gap: 15px;
+LN401-SUB   } --CHANGEDTO[73d39]-->   padding-right: 5px; /* for scrollbar spacing */
+LN402-SUB  --CHANGEDTO[73d39]-->   }
+LN403-SUB   .nav-links a:hover { --CHANGEDTO[73d39]--> 
+LN404-SUB     color: #6d49d1; --CHANGEDTO[73d39]-->   .nav-links a {
+LN405-SUB   } --CHANGEDTO[73d39]-->     text-decoration: none;
+LN406-SUB   .sidebar-footer { --CHANGEDTO[73d39]-->     color: #f0f0f0;
+LN408-SUB     margin-top: 20px; --CHANGEDTO[73d39]-->     font-size: 1.1em;
+LN409-SUB   } --CHANGEDTO[73d39]-->     transition: color 0.3s ease;
+LN410-SUB   .button { --CHANGEDTO[73d39]-->   }
+LN411-SUB     display: inline-block; --CHANGEDTO[73d39]--> 
+LN412-SUB     padding: 10px 20px; --CHANGEDTO[73d39]-->   .nav-links a:hover {
+LN413-SUB     background-color: #383838; --CHANGEDTO[73d39]-->     color: #6d49d1;
+LN414-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->   }
+LN415-SUB     text-decoration: none; --CHANGEDTO[73d39]-->   .sidebar-footer {
+LN416-SUB     border-radius: 5px; --CHANGEDTO[73d39]-->     text-align: center;
+LN417-SUB     font-weight: bold; --CHANGEDTO[73d39]-->     margin-top: 20px;
+LN418-SUB     transition: background-color 0.3s ease, transform 0.2s ease; --CHANGEDTO[73d39]-->   }
+LN419-SUB   } --CHANGEDTO[73d39]-->   .button {
+LN420-SUB   .button:hover { --CHANGEDTO[73d39]-->     display: inline-block;
+LN421-SUB     background-color: #36008d; --CHANGEDTO[73d39]-->     padding: 10px 20px;
+LN422-SUB     transform: scale(1.05); --CHANGEDTO[73d39]-->     background-color: #383838;
+LN423-SUB   } --CHANGEDTO[73d39]-->     color: #f0f0f0;
+LN424-SUB   main { --CHANGEDTO[73d39]-->     text-decoration: none;
+LN425-SUB     flex-grow: 1; --CHANGEDTO[73d39]-->     border-radius: 5px;
+LN426-SUB     padding: 40px; --CHANGEDTO[73d39]-->     font-weight: bold;
+LN427-SUB     overflow-y: auto; --CHANGEDTO[73d39]-->     transition: background-color 0.3s ease, transform 0.2s ease;
+LN429-SUB   details { --CHANGEDTO[73d39]-->   .button:hover {
+LN430-SUB     background-color: #111; --CHANGEDTO[73d39]-->     background-color: #36008d;
+LN431-SUB     border-radius: 8px; --CHANGEDTO[73d39]-->     transform: scale(1.05);
+LN432-SUB     padding: 10px; --CHANGEDTO[73d39]-->   }
+LN433-SUB     cursor: pointer; --CHANGEDTO[73d39]-->   main {
+LN434-SUB   } --CHANGEDTO[73d39]-->     flex-grow: 1;
+LN435-SUB   summary { --CHANGEDTO[73d39]-->     padding: 40px;
+LN436-SUB     font-size: 1.2em; --CHANGEDTO[73d39]-->     overflow-y: auto;
+LN437-SUB     font-weight: bold; --CHANGEDTO[73d39]-->   }
+LN438-SUB     color: #6d49d1; --CHANGEDTO[73d39]-->   details {
+LN439-SUB     margin-bottom: 5px; --CHANGEDTO[73d39]-->     background-color: #111;
+LN440-SUB   } --CHANGEDTO[73d39]-->     border-radius: 8px;
+LN441-SUB   details[open] summary::after { --CHANGEDTO[73d39]-->     padding: 10px;
+LN442-SUB     float: right; --CHANGEDTO[73d39]-->     cursor: pointer;
+LN444-SUB   summary::after { --CHANGEDTO[73d39]-->   summary {
+LN445-SUB     float: right; --CHANGEDTO[73d39]-->     font-size: 1.2em;
+LN446-SUB   } --CHANGEDTO[73d39]-->     font-weight: bold;
+LN447-SUB   details a { --CHANGEDTO[73d39]-->     color: #6d49d1;
+LN448-SUB     display: block; --CHANGEDTO[73d39]-->     margin-bottom: 5px;
+LN449-SUB     margin-top: 8px; --CHANGEDTO[73d39]-->   }
+LN450-SUB     font-size: 1em; --CHANGEDTO[73d39]-->   details[open] summary::after {
+LN451-SUB   } --CHANGEDTO[73d39]-->     float: right;
+LN452-SUB  --CHANGEDTO[73d39]-->   }
+LN453-SUB .generalCenter{ --CHANGEDTO[73d39]-->   summary::after {
+LN454-SUB   /*ideally centers nearly anything to the center of the main content frame*/ --CHANGEDTO[73d39]-->     float: right;
+LN455-SUB   align-items: center; --CHANGEDTO[73d39]-->   }
+LN456-SUB   text-align: center; --CHANGEDTO[73d39]-->   details a {
+LN457-SUB   display: flex; --CHANGEDTO[73d39]-->     display: block;
+LN458-SUB   flex-direction: column; --CHANGEDTO[73d39]-->     margin-top: 8px;
+LN459-SUB  --CHANGEDTO[73d39]-->     font-size: 1em;
+LN460-SUB   } --CHANGEDTO[73d39]-->   }
+LN461-ADD 
+LN462-ADD 
+LN463-ADD /* CLASS STYLING FOR INJECTED CLASSES FROM MD */
+LN464-ADD 
+LN465-ADD .generalCenter{
+LN466-ADD   /*ideally centers nearly anything to the center of the main content frame*/
+LN467-ADD   align-items: center;
+LN468-ADD   text-align: center;
+LN469-ADD   display: flex;
+LN470-ADD   flex-direction: column;
+LN471-ADD }
+LN472-ADD 
+LN473-ADD .centered-text {
+LN474-ADD     text-align: center;
+LN475-ADD     margin-top: 20px;
+LN476-ADD     font-size: 1.2em;
+LN477-ADD     color: #f0f0f0;
+LN478-ADD     /*slightly make the area for it smaller*/
+LN479-ADD     max-width: 80%;
+LN480-ADD     margin-left: auto;
+LN481-ADD     margin-right: auto;
+LN482-ADD }
+LN483-ADD 
+LN484-ADD .centered-label {
+LN485-ADD     text-align: center;
+LN486-ADD     margin-top: 20px;
+LN487-ADD     font-size: 2.6em;
+LN488-ADD     color: #f0f0f0;
+LN489-ADD }
+LN490-ADD 
+LN491-ADD .code-block {
+LN492-ADD   background-color: #1d1d1d;
+LN493-ADD   border: 2px solid #4620af;
+LN494-ADD   padding: 15px;
+LN495-ADD   margin: 25px auto;
+LN496-ADD   border-radius: 8px;
+LN497-ADD   overflow-x: auto;
+LN498-ADD   font-family: 'Fira Code', monospace;
+LN499-ADD   font-size: 0.95em;
+LN500-ADD   line-height: 1.4;
+LN501-ADD   color: #f8f8f2;
+LN502-ADD   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+LN503-ADD }
+LN504-ADD   
+
++-= (StormCode: Saving files to history because of evil, scary thunder) on 09/26/2025 at 03:11 PM
+
+LN433-SUB   main { --CHANGEDTO[73d39]--> 
+LN434-SUB     flex-grow: 1; --CHANGEDTO[73d39]-->   .expansive-button {
+LN435-SUB     padding: 40px; --CHANGEDTO[73d39]-->     display: inline-block;
+LN436-SUB     overflow-y: auto; --CHANGEDTO[73d39]-->     padding: 10px 20px;
+LN437-SUB   } --CHANGEDTO[73d39]-->     background-color: #383838;
+LN438-SUB   details { --CHANGEDTO[73d39]-->     color: #f0f0f0;
+LN439-SUB     background-color: #111; --CHANGEDTO[73d39]-->     text-decoration: none;
+LN440-SUB     border-radius: 8px; --CHANGEDTO[73d39]-->     border-radius: 5px;
+LN441-SUB     padding: 10px; --CHANGEDTO[73d39]-->     font-weight: bold;
+LN442-SUB     cursor: pointer; --CHANGEDTO[73d39]-->     transition: background-color 0.3s ease, transform 0.2s ease;
+LN443-SUB   } --CHANGEDTO[73d39]-->     width: 90%;
+LN444-SUB   summary { --CHANGEDTO[73d39]-->     text-align: center;
+LN445-SUB     font-size: 1.2em; --CHANGEDTO[73d39]-->   }
+LN446-SUB     font-weight: bold; --CHANGEDTO[73d39]-->   .expansive-button:hover {
+LN447-SUB     color: #6d49d1; --CHANGEDTO[73d39]-->     background-color: #36008d;
+LN448-SUB     margin-bottom: 5px; --CHANGEDTO[73d39]-->     transform: scale(1.05);
+LN450-SUB   details[open] summary::after { --CHANGEDTO[73d39]-->   main {
+LN451-SUB     float: right; --CHANGEDTO[73d39]-->     flex-grow: 1;
+LN452-SUB   } --CHANGEDTO[73d39]-->     padding: 40px;
+LN453-SUB   summary::after { --CHANGEDTO[73d39]-->     overflow-y: auto;
+LN454-SUB     float: right; --CHANGEDTO[73d39]-->   }
+LN455-SUB   } --CHANGEDTO[73d39]-->   details {
+LN456-SUB   details a { --CHANGEDTO[73d39]-->     background-color: #111;
+LN457-SUB     display: block; --CHANGEDTO[73d39]-->     border-radius: 8px;
+LN458-SUB     margin-top: 8px; --CHANGEDTO[73d39]-->     padding: 10px;
+LN459-SUB     font-size: 1em; --CHANGEDTO[73d39]-->     cursor: pointer;
+LN461-SUB  --CHANGEDTO[73d39]-->   summary {
+LN462-SUB  --CHANGEDTO[73d39]-->     font-size: 1.2em;
+LN463-SUB /* CLASS STYLING FOR INJECTED CLASSES FROM MD */ --CHANGEDTO[73d39]-->     font-weight: bold;
+LN464-SUB  --CHANGEDTO[73d39]-->     color: #6d49d1;
+LN465-SUB .generalCenter{ --CHANGEDTO[73d39]-->     margin-bottom: 5px;
+LN466-SUB   /*ideally centers nearly anything to the center of the main content frame*/ --CHANGEDTO[73d39]-->   }
+LN467-SUB   align-items: center; --CHANGEDTO[73d39]-->   details[open] summary::after {
+LN468-SUB   text-align: center; --CHANGEDTO[73d39]-->     float: right;
+LN469-SUB   display: flex; --CHANGEDTO[73d39]-->   }
+LN470-SUB   flex-direction: column; --CHANGEDTO[73d39]-->   summary::after {
+LN471-SUB } --CHANGEDTO[73d39]-->     float: right;
+LN472-SUB  --CHANGEDTO[73d39]-->   }
+LN473-SUB .centered-text { --CHANGEDTO[73d39]-->   details a {
+LN474-SUB     text-align: center; --CHANGEDTO[73d39]-->     display: block;
+LN475-SUB     margin-top: 20px; --CHANGEDTO[73d39]-->     margin-top: 8px;
+LN476-SUB     font-size: 1.2em; --CHANGEDTO[73d39]-->     font-size: 1em;
+LN477-SUB     color: #f0f0f0; --CHANGEDTO[73d39]-->   }
+LN478-SUB     /*slightly make the area for it smaller*/ --CHANGEDTO[73d39]--> 
+LN479-SUB     max-width: 80%; --CHANGEDTO[73d39]--> 
+LN480-SUB     margin-left: auto; --CHANGEDTO[73d39]--> /* CLASS STYLING FOR INJECTED CLASSES FROM MD */
+LN481-SUB     margin-right: auto; --CHANGEDTO[73d39]--> 
+LN482-SUB } --CHANGEDTO[73d39]--> .generalCenter{
+LN483-SUB  --CHANGEDTO[73d39]-->   /*ideally centers nearly anything to the center of the main content frame*/
+LN484-SUB .centered-label { --CHANGEDTO[73d39]-->   align-items: center;
+LN485-SUB     text-align: center; --CHANGEDTO[73d39]-->   text-align: center;
+LN486-SUB     margin-top: 20px; --CHANGEDTO[73d39]-->   display: flex;
+LN487-SUB     font-size: 2.6em; --CHANGEDTO[73d39]-->   flex-direction: column;
+LN488-SUB     color: #f0f0f0; --CHANGEDTO[73d39]--> }
+LN489-SUB } --CHANGEDTO[73d39]--> 
+LN490-SUB  --CHANGEDTO[73d39]--> .centered-text {
+LN491-SUB .code-block { --CHANGEDTO[73d39]-->     text-align: center;
+LN492-SUB   background-color: #1d1d1d; --CHANGEDTO[73d39]-->     margin-top: 20px;
+LN493-SUB   border: 2px solid #4620af; --CHANGEDTO[73d39]-->     font-size: 1.2em;
+LN494-SUB   padding: 15px; --CHANGEDTO[73d39]-->     color: #f0f0f0;
+LN495-SUB   margin: 25px auto; --CHANGEDTO[73d39]-->     /*slightly make the area for it smaller*/
+LN496-SUB   border-radius: 8px; --CHANGEDTO[73d39]-->     max-width: 80%;
+LN497-SUB   overflow-x: auto; --CHANGEDTO[73d39]-->     margin-left: auto;
+LN498-SUB   font-family: 'Fira Code', monospace; --CHANGEDTO[73d39]-->     margin-right: auto;
+LN499-SUB   font-size: 0.95em; --CHANGEDTO[73d39]--> }
+LN500-SUB   line-height: 1.4; --CHANGEDTO[73d39]--> 
+LN501-SUB   color: #f8f8f2; --CHANGEDTO[73d39]--> .centered-label {
+LN502-SUB   box-shadow: 0 4px 10px rgba(0,0,0,0.3); --CHANGEDTO[73d39]-->     text-align: center;
+LN503-SUB } --CHANGEDTO[73d39]-->     margin-top: 20px;
+LN504-SUB  --CHANGEDTO[73d39]-->     font-size: 2.6em;
+LN505-ADD     color: #f0f0f0;
+LN506-ADD }
+LN507-ADD 
+LN508-ADD .code-block {
+LN509-ADD   background-color: #1d1d1d;
+LN510-ADD   border: 2px solid #4620af;
+LN511-ADD   padding: 15px;
+LN512-ADD   margin: 25px auto;
+LN513-ADD   border-radius: 8px;
+LN514-ADD   overflow-x: auto;
+LN515-ADD   font-family: 'Fira Code', monospace;
+LN516-ADD   font-size: 0.95em;
+LN517-ADD   line-height: 1.4;
+LN518-ADD   color: #f8f8f2;
+LN519-ADD   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+LN520-ADD }
+LN521-ADD   
