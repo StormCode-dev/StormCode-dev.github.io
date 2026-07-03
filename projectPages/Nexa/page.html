@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StormCode: Nexa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../styles.css" />
+<link rel="stylesheet" href="local.css" />
+</head>
+<body>
+
+<div class="page-content">
+<div class="page">
+
+  <header class="header">
+    <div class="brand">
+      <div class="brand-mark">SC</div>
+      <span class="brand-name">Stormcode</span>
+    </div>
+    <nav class="nav" id="nav-menu">
+      <a href="../../index.html#about">About</a>
+      <a href="../../index.html#projects">Projects</a>
+      <a href="../../index.html#contact">Contact</a>
+      <a href="../../index.html">Home</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" id="nav-toggle">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </header>
+
+  <section class="project-hero">
+    <div class="project-hero-text">
+      <h1>Minecraft servers. Your way.</h1>
+      <p class="project-hero-subtext">
+        A Python-based Discord bot for Minecraft server orchestration. Start, stop, and manage
+        your servers without leaving Discord.
+      </p>
+      <a href="https://github.com/StormCode-dev/Nexa/releases/latest" class="project-hero-cta" target="_blank" rel="noopener">
+        Download Latest Release
+      </a>
+    </div>
+    <div class="project-hero-logo">
+      <img src="assets/nexa-icon1.png" alt="Nexa logo" />
+    </div>
+  </section>
+
+  <!-- Pt.1 -->
+
+  <section class="story-block">
+    <h2>I hated Minecraft servers as much as I loved them.</h2>
+    <p>
+      Nexa was born out of frustration with the state of Minecraft server management. Back in 2022, myself and a group
+      of friends decided we wanted to run a Minecraft server for the friend group. We wanted a modded server, but
+      we also wanted to play on a server for cheap.
+    </p>
+    <p>
+      Looking at hosting options, we found that most of them were either expensive, unreliable, or both. The only
+      hoster we found that fit the bill was Exaraton. It had great features, lower-cost, and a good reputation...
+      but it was <b>still expensive.</b>
+    </p>
+    <p>
+      This naturally led to the question: "Why not just host it ourselves?" We had a spare laptop and good internet.
+      We went with hosting it ourselves. Notably, the following issues arose:
+    </p>
+    <ul>
+      <li>We had to manually start and stop the server, which was a pain.</li>
+      <li>We had to manually update the server, which was a pain.</li>
+      <li>We had to manually manage backups, which was a pain.</li>
+      <li>We had to manually manage mods, which was a pain.</li>
+      <li>We had to wait for the hoster to actually get to the server to fix issues, which was a <b>massive pain</b>.</li>
+      <li>We had to manually manage server restarts, which was a pain.</li>
+    </ul>
+    <p>
+      Worst of all? It didn't slot into our Discord server. We were stuck with a fragile system that had us at its mercy.
+      We wanted a better way to manage our server, and we wanted it to be a part of our Discord server.
+    </p>
+  </section>
+
+  <!-- Pt.2 -->
+
+  <section class="story-block">
+    <h2>The problem with existing Minecraft server solutions</h2>
+    <p>
+      Bluntly? They suck. The existing solutions, especially for homelab users, are either expensive, utterly confusing, or both.
+    </p>
+    <p>
+      Let's take a look at Pterodactyl, one of the most popular Minecraft server management solutions.
+      It's a web-based panel that lets you manage your servers, and it is very involved.
+    </p>
+
+    <div class="media-column">
+      <div class="carousel" data-carousel-path="assets/carousel_001"></div>
+    </div>
+
+    <p>
+      Pterodactyl demands a lot of setup and configuration before it can actually work. This includes things
+      like setting up a web server, a database, Wings, etc. Ironically, the easier part of Pterodactyl is
+      setting up Minecraft. That should be the other way around. Minecraft should be the harder part, and
+      the panel should be easier.
+    </p>
+    <p>
+      So, <b>I went with making my own solution.</b>
+    </p>
+  </section>
+
+  <!-- Pt.3 -->
+
+  <section class="story-block">
+    <h2>Enter Nexa</h2>
+    <div class="media-content-split">
+      <div class="media-column">
+        <div class="carousel" data-carousel-path="assets/carousel_002"></div>
+      </div>
+      <div class="media-column">
+        <p>
+          Nexa is a Python-based Discord bot that lets you manage your Minecraft servers from within Discord. It
+          is designed to be easy to use, and it is designed to be easy to set up. It is designed to be a solution
+          for homelab users, and it is designed to be a solution for people who want to manage their servers
+          without having to deal with the complexities of existing solutions.
+        </p>
+        <p>
+          Nexa is designed to mesh into your workflow, let you configure your Minecraft server, and then manage it
+          from within Discord. It comes with a status embed, management commands, user trust system, automatic modpack installer,
+          and more. It is designed to be the best solution for self-hosters, as well as the easiest solution to carry your
+          setup in the long run.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pt.4 --> <br/>
+
+  <!-- Pt.4 -->
+
+  <section class="story-block">
+    <h2>What can Nexa do?</h2>
+    <p>
+      Nexa lets you manage your Minecraft servers from within Discord. It lets you start, stop,
+      lock, unlock, and remotely execute commands on your server securely. Nexa can also automatically
+      install modpacks for you. You can also let Nexa automatically backup your world.
+    </p>
+    <p>
+      Nexa has a trust system that lets you explicitly define users who can manage your server. This trust
+      system is called "Super User". You list exact discord user IDs in the immutable config, and Nexa will
+      only allow those users access to commands that are Super User only. You can also tell Nexa to only
+      allow interactions from a specific Discord server, as an additional security feature.
+    </p>
+    <p>
+      Nexa can watchdog your Minecraft server instance, restart it on crash, idle-mode the server when no
+      players are online, shut it down automatically for you, and more.
+    </p>
+  </section>
+
+  <section class="story-block" style="text-align: center; border-bottom: none;">
+    <a href="https://github.com/StormCode-dev/Nexa/releases/latest" class="project-hero-cta" target="_blank" rel="noopener">
+      Download Latest Release
+    </a>
+  </section>
+
+</div>
+</div>
+
+<script src="../../scripts/core.js"></script>
+<script src="../../scripts/carousel.js"></script>
+
+</body>
+</html>

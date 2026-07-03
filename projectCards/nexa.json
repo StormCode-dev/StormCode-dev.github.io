@@ -1,0 +1,11 @@
+{
+  "title": "Nexa",
+  "type": "bot",
+  "status": "active",
+  "additionalData": "",
+  "stack": ["python", "discord.py"],
+  "accent": "blue",
+  "logoOverride": "NX",
+  "description": "Discord-based Minecraft server orchestration software written in Python, allowing for seamless server integration with your community.",
+  "buttonGoesTo": "projectPages/Nexa/page.html"
+}

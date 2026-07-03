@@ -1,60 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StormCode: Info and Tools</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StormCode: Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <header class="topbar">
-    <div class="logo">StormCode</div>
-    <nav class="nav-links">
+<div class="page-content">
+<div class="page">
+
+  <header class="header">
+    <div class="brand">
+      <div class="brand-mark">SC</div>
+      <span class="brand-name">Stormcode</span>
+    </div>
+    <nav class="nav" id="nav-menu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
       <a href="#home">Home</a>
-      <a href="#tools">Tools</a>
     </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" id="nav-toggle">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
   </header>
 
-  <section class="gradient-section">
-    <div class="gradient-content">
-      <h1>Developer Tools For All</h1>
-      <p>Custom-built tools for all developers.</p>
+  <section class="hero">
+    <h1>I make software.</h1>
+  </section>
+
+  <section class="top-grid">
+    <div class="panel" id="about">
+      <p class="panel-label">About Me</p>
+      <p class="panel-body">
+        I'm StormCode, an independent software developer and designer that primarily builds
+        open-source tools and software for all people alike. I focus on owning the stack of my projects, and
+        have a drive to make high-quality and reliable software that helps peoples lives. If you want to reach out
+        to me, you can do so through the contact link at the top of the site.
+      </p>
+    </div>
+
+    <div class="panel">
+      <p class="panel-label">Highlights</p>
+      <div class="highlight-list">
+        <div class="highlight-item"><span class="highlight-dot"></span>Nexa</div>
+        <div class="highlight-item"><span class="highlight-dot"></span>Amethyst</div>
+        <div class="highlight-item"><span class="highlight-dot"></span>AnvilSlicer</div>
+      </div>
     </div>
   </section>
 
-  <main>
-    <section id="home">
-      <section id="home">
-        <h1 class="centered-label">My Mission</h1>
-        <p class="centered-text">
-          Hi, I'm <strong>StormCode</strong>, a developer passionate about creating tools for everyone.<br><br>
-          The tools I create are intended to enable all developers, teams, and companies to help <br>them achieve their goals.
-          I believe that resources should be accessible to anybody, because <br>
-          people should not have to be limited by paywalled resources or expensive tools.<br><br>
-          Any tools produced by me are free to use, and most will be open source, either upon release <br>
-          or shortly after.
-        </p>
-        <br>
-      
-        <section id="tools">
-          <h1>Tools you might like that I've made</h1>
-          <div class="tools-container">
-            <div class="tool-card">
-              <h2>Amethyst VCS</h2>
-              <p>The VCS of dreams, designed to be readable, editable, and intuitive.</p>
-              <br>
-              <a href="tools/amethyst/amethyst.html" class="button">More</a> 
-            </div>
-          </div>
-        </section>
-      
-    </section>
-  </main>
+  <section id="projects">
+    <p class="section-label">Projects</p>
+    <input type="text" class="search-bar" id="search-input" placeholder="Search projects..." />
+    <div class="filter-tags" id="filter-tags"></div>
+    <div class="card-grid" id="card-grid"></div>
+  </section>
 
+</div>
+</div>
+<script src="scripts/projects.js"></script>
+<script src="scripts/core.js"></script>
 </body>
 </html>

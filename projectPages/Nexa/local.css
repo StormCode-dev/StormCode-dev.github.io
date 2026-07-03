@@ -1,0 +1,41 @@
+.story-block {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.story-block:last-of-type {
+  border-bottom: none;
+}
+
+.story-block h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 16px;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.story-block p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 0 0 16px;
+}
+
+.story-block p:last-child {
+  margin-bottom: 0;
+}
+
+.story-block ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.story-block ul li {
+  margin-bottom: 6px;
+}
+
+.project-hero {
+  border-bottom: 1px solid var(--border);
+}
